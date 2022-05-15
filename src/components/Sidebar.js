@@ -2,7 +2,7 @@ import React from 'react';
 import { bubble  as Menu } from 'react-burger-menu';
 import StyledSidebar from './styles/Sidebar.styled'
 
-export default Sidebar => {
+const Sidebar = () => {
   return (
       <StyledSidebar>
     <Menu>
@@ -22,3 +22,5 @@ export default Sidebar => {
     </StyledSidebar>
   );
 };
+
+export default Sidebar;

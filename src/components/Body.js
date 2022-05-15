@@ -4,8 +4,7 @@ import Sidebar from './Sidebar'
 import Header from './Header';
 import Footer from './Footer';
 
-class Body extends Component {
-  render(){
+const Body = () => {
   return (
     <>
     <Header/>
@@ -16,6 +15,6 @@ class Body extends Component {
     <Footer/>
     </>
   );
-}}
+}
 
 export default Body;
